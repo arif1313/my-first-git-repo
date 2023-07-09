@@ -75,53 +75,62 @@ ul li a{
         text-align: center;
         font-size: 40px;
     }
-    .continer{display: flex;
-    }
-    .edudiv{
-        background-color: #3f3f3f;
-       padding: 10px;
-       margin: 10px;
-       color: white;
-       font-size: 10px;
-      width: 638px;
-      height: 200px;
-    }
-    .edu-titel{
-        padding-top: 20px;
-    padding-left: 10px;
-    color: white;
-    text-align: center;
-    }
-    .eduheadder1{
-        color: tomato;
-        font-size: 24px;
-        text-align: center;
-    }
-    .information {
-        font-size: 20px;
-    }
-    details{
-        font-size: 18px;
-    }
-    .others{
-        font-size: 30px;
-        font-weight: bolder;
-        color:burlywood;
-        text-align: center;
-        padding: 50px 10px 10px 10px;
 
-    }
-    .otherinformation{
+    .contact-secton{
         display: flex;
-    padding: 20px 30px 100px 30px;
+        justify-content: space-around;
+        padding-top: 50px;
 
     }
-    .otther-div-header{
+    .smsdiv{
+     padding-top: 20px;
+        background-color: #313131;
+        height: 400px;
+    }
+    .input{
+        height: 20px;
+       width: 300px;
+       background-color: black;
+      color: white;
+      font-weight: 500;
+      border: 2px solid tomato;
+      border-radius: 2px;
+     padding: 5px;
+    }
+    .smsdiv h2{
         text-align: center;
+        color: bisque;
+      padding-bottom: 30px;
     }
-    .other-div{
-        text-align: left;
-        padding: 10px;
-        color:white;
+    .smsdiv  label{
+       color: white;
+       padding-top: 20px;
+       display: block;
+       font-size: 20px;
     }
-   
+    #sms{
+        background-color: black;
+        color: white;
+        font-weight: 600px;
+        border: 2px solid tomato;
+    }
+    .button{
+        background-color: tomato;
+        width: 70px;
+        display: block;
+      border: 2px solid wheat;
+border-radius: 5px;
+font-weight: 700;
+height: 25px;
+       
+    }
+    .smsdiv h2 img{
+       background-color: white;
+        width: 24px;
+        height: 24px;
+       
+    }
+    .button:active{
+        background-color: green;
+        width: 65px;
+    }
