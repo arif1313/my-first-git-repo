@@ -111,9 +111,26 @@ ul li a{
           height: 400px;
           border-radius: 50%;
          border:1px solid white;
-     
-         
-         
+    
+        }
+        .icon{
+            display: flex;
+            justify-content: space-around;
+
+        width: 250px;
+        padding-left: 135px;
+        }
+        .icon img{
+          color: white;
+          background-color: #fff;
+          border-radius: 8px;
+        
+        }
+        .icon img:active{
+            height: 20px;
+           
+           
+
         }
 
 
