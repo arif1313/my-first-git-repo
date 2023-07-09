@@ -5,7 +5,7 @@
 
 }
 body{
-    background-image: url(../images/R.jpg);
+    background-image: url(../images/backround.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -38,8 +38,6 @@ height: 50px;
         padding-right: 30px;
         list-style: none;
         text-decoration: none;
-
-       
      
     }
 ul li a{
