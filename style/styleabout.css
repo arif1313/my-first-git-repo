@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#313139;
+height: 100vh;
+background-size: cover;
+}
+.header-condiner{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+color: white;    
+
+height: 50px;
+}
+.single-text-r{
+    color: tomato;
+}
+.logo{
+   
+    font-size: 30px;
+    font-weight: 700;
+    backface-visibility:hidden;
+
+}
+.menu>ul{
+    display: flex;
+
+    }
+    
+    ul li{
+        padding-right: 30px;
+        list-style: none;
+        text-decoration: none
+    }
+ul li a{
+    
+        position: relative;
+        color:#fff;
+        font-weight: 500;
+        font-size: 1.1em; 
+        margin-left: 40px;
+        text-decoration: none;
+
+        }
+        ul li a::after{
+            content: '';
+         position: absolute;
+         left: 0;
+         bottom: -6px;
+         width: 100%;
+         height: 3px;
+         background:tomato;
+         border-radius: 5px;
+         transform-origin: right;
+         transform: scaleX(0);
+         transition: transform .3s;
+         color: blue;
+         cursor: pointer;
+
+        }
+        
+        ul li a:hover::after{
+
+            transform: scaleX(1);
+            
+        }
+        details{
+            display: inline;
+        }
+    .firsth{
+        margin-top: 100px;
+        color:tomato;
+        text-align: center;
+        font-size: 40px;
+    }
+    .continer{display: flex;
+    }
+    .edudiv{
+        background-color: #3f3f3f;
+       padding: 10px;
+       margin: 10px;
+       color: white;
+       font-size: 10px;
+      width: 638px;
+      height: 200px;
+    }
+    .edu-titel{
+        padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+    }
+    .eduheadder1{
+        color: tomato;
+        font-size: 24px;
+        text-align: center;
+    }
+    .information {
+        font-size: 20px;
+    }
+    details{
+        font-size: 18px;
+    }
+    .others{
+        font-size: 30px;
+        font-weight: bolder;
+        color:burlywood;
+        text-align: center;
+        padding: 50px 10px 10px 10px;
+
+    }
+    .otherinformation{
+        display: flex;
+    padding: 20px 30px 100px 30px;
+
+    }
+    .otther-div-header{
+        text-align: center;
+    }
+    .other-div{
+        text-align: left;
+        padding: 10px;
+        color:white;
+    }
+   
+    /*.continer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        flex-wrap: wrap;
+        padding-top: 30px;
+
+    }
+    #div1{
+        background-color: #3f3f3f;
+       
+    }
+    #div2{
+        background-color:  #3f3f3f;
+
+    }
+    #div3{
+        background-color: #3f3f3f;
+
+    }
+    div .div{
+text-align: center;
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    .div p{
+        font-size: ;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        text-transform: initial;
+        font-size: 1.1em;
+    }
+    .div h1{
+        color: white;
+    }
+    div .div:hover{
+        height: 600px;
+    }*/
+
+
+
+
