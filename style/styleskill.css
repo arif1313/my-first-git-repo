@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#313139;
+height: 100vh;
+background-size: cover;
+}
+.header-condiner{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+color: white;    
+
+height: 50px;
+}
+.single-text-r{
+    color: tomato;
+}
+.logo{
+   
+    font-size: 30px;
+    font-weight: 700;
+    backface-visibility:hidden;
+
+}
+.menu>ul{
+    display: flex;
+
+    }
+    
+    ul li{
+        padding-right: 30px;
+        list-style: none;
+        text-decoration: none
+    }
+ul li a{
+    
+        position: relative;
+        color:#fff;
+        font-weight: 500;
+        font-size: 1.1em; 
+        margin-left: 40px;
+        text-decoration: none;
+
+        }
+        ul li a::after{
+            content: '';
+         position: absolute;
+         left: 0;
+         bottom: -6px;
+         width: 100%;
+         height: 3px;
+         background:tomato;
+         border-radius: 5px;
+         transform-origin: right;
+         transform: scaleX(0);
+         transition: transform .3s;
+         color: blue;
+         cursor: pointer;
+
+        }
+        
+        ul li a:hover::after{
+
+            transform: scaleX(1);
+            
+        }
+        .firsth{
+           
+            color:tomato;
+            text-align: center;
+            font-size: 40px;
+            padding-top: 40px;
+        }
+        .skillcontiner{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .chart{
+            height: 400px;
+          padding-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            width: 600px;
+         
+        }
+        #html{
+            width: 50px;
+            height: 400px;
+            background-color: aquamarine;
+
+        }
+        .commondiv1{
+            background-color:#313139;
+            height: 50px;
+            color: white;
+           
+           
+            
+        }
+        .charthight{
+            font-size: 15px;
+          
+        }
+        #css{
+            background-color:lightcoral;
+            width: 50px;
+
+        }
+        .commondiv2{
+            background-color:#313139;
+            height: 100px;
+            color: white;
+
+        }
+        #Javascript{
+          background-color: lightblue;
+            width: 60px;
+        }
+        .commondiv3{
+            background-color:#313139;
+            height: 350px;
+            color: white;
+        }
+        #Php{
+            background-color: chocolate;
+            width: 50px;
+        }
+        .commondiv4{
+            background-color:#313139;
+            height: 370px;
+            color: white;
+        }
+        #c-language{
+            background-color: cornflowerblue;
+            width: 60px;
+        }
+        .commondiv5{
+            background-color:#313139;
+            height: 70px;
+            color: white;
+        }
+        #c-language{
+            background-color: rgb(189, 237, 100);
+            width: 60px;
+        }
+        #cplus{
+            background-color: rgb(100, 136, 237);
+            width: 60px;
+        }
+        #Java{
+            background-color: rgb(237, 189, 100);
+            width: 60px;
+        }
+        #Phython{
+            background-color: rgb(225, 100, 237);
+            width: 60px;
+        }
+        #mysql{
+            background-color: rgb(100, 237, 107);
+            width: 60px;
+        }   
+        .commondiv6{
+            background-color:#313139;
+            height: 85px;
+            color: white;
+        }
+        .commondiv7{
+            background-color:#313139;
+            height: 300px;
+            color: white;
+        }
+        .commondiv8{
+            background-color:#313139;
+            height: 350px;
+            color: white;
+        }
+        .commondiv9{
+            background-color:#313139;
+            height: 60px;
+            color: white;
+        
+        }
+        .skilldetails{
+            padding: 50px 0px;
+        }
+
+        .skilldetails h1{
+            text-align: center;
+            color: tomato;
+            font-size: 24px;
+            padding: 10px;
+        }
+        .skilldetails p{
+            color: white;
+        }
